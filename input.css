@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat", system-ui, sans-serif;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .rounded-2xl {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section .rounded-2xl:hover {
+  transform: translateY(-2px);
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+footer a {
+  text-decoration: none;
+}
